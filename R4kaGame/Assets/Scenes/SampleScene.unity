@@ -3426,6 +3426,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 408588143}
     m_Modifications:
+    - target: {fileID: 819926372695272455, guid: 31f3e42583073364f8d0587b527f9e9c, type: 3}
+      propertyPath: m_IsTrigger
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 6258435374373364480, guid: 31f3e42583073364f8d0587b527f9e9c, type: 3}
       propertyPath: m_Name
       value: Sand (1)
@@ -5155,6 +5159,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 472597383}
     m_Modifications:
+    - target: {fileID: 819926372695272455, guid: 31f3e42583073364f8d0587b527f9e9c, type: 3}
+      propertyPath: m_IsTrigger
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 6258435374373364480, guid: 31f3e42583073364f8d0587b527f9e9c, type: 3}
       propertyPath: m_Name
       value: Sand (2)
@@ -8744,6 +8752,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1112442858}
     m_Modifications:
+    - target: {fileID: 819926372695272455, guid: 31f3e42583073364f8d0587b527f9e9c, type: 3}
+      propertyPath: m_IsTrigger
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 6258435374373364480, guid: 31f3e42583073364f8d0587b527f9e9c, type: 3}
       propertyPath: m_Name
       value: Sand (11)
@@ -10962,6 +10974,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1976169180}
     m_Modifications:
+    - target: {fileID: 819926372695272455, guid: 31f3e42583073364f8d0587b527f9e9c, type: 3}
+      propertyPath: m_IsTrigger
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 6258435374373364480, guid: 31f3e42583073364f8d0587b527f9e9c, type: 3}
       propertyPath: m_Name
       value: Sand (8)
@@ -12264,6 +12280,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1112442858}
     m_Modifications:
+    - target: {fileID: 819926372695272455, guid: 31f3e42583073364f8d0587b527f9e9c, type: 3}
+      propertyPath: m_IsTrigger
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 6258435374373364480, guid: 31f3e42583073364f8d0587b527f9e9c, type: 3}
       propertyPath: m_Name
       value: Sand (9)
@@ -23492,6 +23512,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 277454606}
     m_Modifications:
+    - target: {fileID: 819926372695272455, guid: 31f3e42583073364f8d0587b527f9e9c, type: 3}
+      propertyPath: m_IsTrigger
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 6258435374373364480, guid: 31f3e42583073364f8d0587b527f9e9c, type: 3}
       propertyPath: m_Name
       value: Sand (22)
@@ -27267,6 +27291,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 472597383}
     m_Modifications:
+    - target: {fileID: 819926372695272455, guid: 31f3e42583073364f8d0587b527f9e9c, type: 3}
+      propertyPath: m_IsTrigger
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 6258435374373364480, guid: 31f3e42583073364f8d0587b527f9e9c, type: 3}
       propertyPath: m_Name
       value: Sand (17)
@@ -31283,6 +31311,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 472597383}
     m_Modifications:
+    - target: {fileID: 819926372695272455, guid: 31f3e42583073364f8d0587b527f9e9c, type: 3}
+      propertyPath: m_IsTrigger
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 6258435374373364480, guid: 31f3e42583073364f8d0587b527f9e9c, type: 3}
       propertyPath: m_Name
       value: Sand (22)
@@ -35161,6 +35193,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 472597383}
     m_Modifications:
+    - target: {fileID: 819926372695272455, guid: 31f3e42583073364f8d0587b527f9e9c, type: 3}
+      propertyPath: m_IsTrigger
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 6258435374373364480, guid: 31f3e42583073364f8d0587b527f9e9c, type: 3}
       propertyPath: m_Name
       value: Sand
@@ -40458,6 +40494,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1112442858}
     m_Modifications:
+    - target: {fileID: 819926372695272455, guid: 31f3e42583073364f8d0587b527f9e9c, type: 3}
+      propertyPath: m_IsTrigger
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 6258435374373364480, guid: 31f3e42583073364f8d0587b527f9e9c, type: 3}
       propertyPath: m_Name
       value: Sand (8)
@@ -48703,6 +48743,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1112442858}
     m_Modifications:
+    - target: {fileID: 819926372695272455, guid: 31f3e42583073364f8d0587b527f9e9c, type: 3}
+      propertyPath: m_IsTrigger
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 6258435374373364480, guid: 31f3e42583073364f8d0587b527f9e9c, type: 3}
       propertyPath: m_Name
       value: Sand (18)
@@ -51369,6 +51413,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 277454606}
     m_Modifications:
+    - target: {fileID: 819926372695272455, guid: 31f3e42583073364f8d0587b527f9e9c, type: 3}
+      propertyPath: m_IsTrigger
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 6258435374373364480, guid: 31f3e42583073364f8d0587b527f9e9c, type: 3}
       propertyPath: m_Name
       value: Sand (4)
@@ -59463,6 +59511,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1976169180}
     m_Modifications:
+    - target: {fileID: 819926372695272455, guid: 31f3e42583073364f8d0587b527f9e9c, type: 3}
+      propertyPath: m_IsTrigger
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 6258435374373364480, guid: 31f3e42583073364f8d0587b527f9e9c, type: 3}
       propertyPath: m_Name
       value: Sand (10)
@@ -62425,6 +62477,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 472597383}
     m_Modifications:
+    - target: {fileID: 819926372695272455, guid: 31f3e42583073364f8d0587b527f9e9c, type: 3}
+      propertyPath: m_IsTrigger
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 6258435374373364480, guid: 31f3e42583073364f8d0587b527f9e9c, type: 3}
       propertyPath: m_Name
       value: Sand (9)
@@ -62487,6 +62543,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 408588143}
     m_Modifications:
+    - target: {fileID: 819926372695272455, guid: 31f3e42583073364f8d0587b527f9e9c, type: 3}
+      propertyPath: m_IsTrigger
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 6258435374373364480, guid: 31f3e42583073364f8d0587b527f9e9c, type: 3}
       propertyPath: m_Name
       value: Sand (19)
@@ -63231,6 +63291,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1976169180}
     m_Modifications:
+    - target: {fileID: 819926372695272455, guid: 31f3e42583073364f8d0587b527f9e9c, type: 3}
+      propertyPath: m_IsTrigger
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 6258435374373364480, guid: 31f3e42583073364f8d0587b527f9e9c, type: 3}
       propertyPath: m_Name
       value: Sand (18)
@@ -66930,6 +66994,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 277454606}
     m_Modifications:
+    - target: {fileID: 819926372695272455, guid: 31f3e42583073364f8d0587b527f9e9c, type: 3}
+      propertyPath: m_IsTrigger
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 6258435374373364480, guid: 31f3e42583073364f8d0587b527f9e9c, type: 3}
       propertyPath: m_Name
       value: Sand (20)
@@ -69272,6 +69340,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 472597383}
     m_Modifications:
+    - target: {fileID: 819926372695272455, guid: 31f3e42583073364f8d0587b527f9e9c, type: 3}
+      propertyPath: m_IsTrigger
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 6258435374373364480, guid: 31f3e42583073364f8d0587b527f9e9c, type: 3}
       propertyPath: m_Name
       value: Sand (1)
@@ -71497,6 +71569,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1976169180}
     m_Modifications:
+    - target: {fileID: 819926372695272455, guid: 31f3e42583073364f8d0587b527f9e9c, type: 3}
+      propertyPath: m_IsTrigger
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 6258435374373364480, guid: 31f3e42583073364f8d0587b527f9e9c, type: 3}
       propertyPath: m_Name
       value: Sand (5)
@@ -71683,6 +71759,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 534995658}
     m_Modifications:
+    - target: {fileID: 819926372695272455, guid: 31f3e42583073364f8d0587b527f9e9c, type: 3}
+      propertyPath: m_IsTrigger
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 6258435374373364480, guid: 31f3e42583073364f8d0587b527f9e9c, type: 3}
       propertyPath: m_Name
       value: Sand (17)
@@ -72613,6 +72693,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 408588143}
     m_Modifications:
+    - target: {fileID: 819926372695272455, guid: 31f3e42583073364f8d0587b527f9e9c, type: 3}
+      propertyPath: m_IsTrigger
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 6258435374373364480, guid: 31f3e42583073364f8d0587b527f9e9c, type: 3}
       propertyPath: m_Name
       value: Sand (5)
@@ -73853,6 +73937,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 534995658}
     m_Modifications:
+    - target: {fileID: 819926372695272455, guid: 31f3e42583073364f8d0587b527f9e9c, type: 3}
+      propertyPath: m_IsTrigger
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 6258435374373364480, guid: 31f3e42583073364f8d0587b527f9e9c, type: 3}
       propertyPath: m_Name
       value: Sand (8)
@@ -75644,6 +75732,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 277454606}
     m_Modifications:
+    - target: {fileID: 819926372695272455, guid: 31f3e42583073364f8d0587b527f9e9c, type: 3}
+      propertyPath: m_IsTrigger
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 6258435374373364480, guid: 31f3e42583073364f8d0587b527f9e9c, type: 3}
       propertyPath: m_Name
       value: Sand (19)
@@ -83214,6 +83306,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1112442858}
     m_Modifications:
+    - target: {fileID: 819926372695272455, guid: 31f3e42583073364f8d0587b527f9e9c, type: 3}
+      propertyPath: m_IsTrigger
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 6258435374373364480, guid: 31f3e42583073364f8d0587b527f9e9c, type: 3}
       propertyPath: m_Name
       value: Sand (23)
@@ -85735,6 +85831,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1112442858}
     m_Modifications:
+    - target: {fileID: 819926372695272455, guid: 31f3e42583073364f8d0587b527f9e9c, type: 3}
+      propertyPath: m_IsTrigger
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 6258435374373364480, guid: 31f3e42583073364f8d0587b527f9e9c, type: 3}
       propertyPath: m_Name
       value: Sand (1)
@@ -87030,6 +87130,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 277454606}
     m_Modifications:
+    - target: {fileID: 819926372695272455, guid: 31f3e42583073364f8d0587b527f9e9c, type: 3}
+      propertyPath: m_IsTrigger
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 6258435374373364480, guid: 31f3e42583073364f8d0587b527f9e9c, type: 3}
       propertyPath: m_Name
       value: Sand (10)
@@ -87650,6 +87754,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 277454606}
     m_Modifications:
+    - target: {fileID: 819926372695272455, guid: 31f3e42583073364f8d0587b527f9e9c, type: 3}
+      propertyPath: m_IsTrigger
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 6258435374373364480, guid: 31f3e42583073364f8d0587b527f9e9c, type: 3}
       propertyPath: m_Name
       value: Sand (11)
@@ -102045,6 +102153,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 534995658}
     m_Modifications:
+    - target: {fileID: 819926372695272455, guid: 31f3e42583073364f8d0587b527f9e9c, type: 3}
+      propertyPath: m_IsTrigger
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 6258435374373364480, guid: 31f3e42583073364f8d0587b527f9e9c, type: 3}
       propertyPath: m_Name
       value: Sand (13)
@@ -106922,6 +107034,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1112442858}
     m_Modifications:
+    - target: {fileID: 819926372695272455, guid: 31f3e42583073364f8d0587b527f9e9c, type: 3}
+      propertyPath: m_IsTrigger
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 6258435374373364480, guid: 31f3e42583073364f8d0587b527f9e9c, type: 3}
       propertyPath: m_Name
       value: Sand (16)
@@ -107418,6 +107534,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 534995658}
     m_Modifications:
+    - target: {fileID: 819926372695272455, guid: 31f3e42583073364f8d0587b527f9e9c, type: 3}
+      propertyPath: m_IsTrigger
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 6258435374373364480, guid: 31f3e42583073364f8d0587b527f9e9c, type: 3}
       propertyPath: m_Name
       value: Sand (18)
@@ -110511,6 +110631,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1112442858}
     m_Modifications:
+    - target: {fileID: 819926372695272455, guid: 31f3e42583073364f8d0587b527f9e9c, type: 3}
+      propertyPath: m_IsTrigger
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 6258435374373364480, guid: 31f3e42583073364f8d0587b527f9e9c, type: 3}
       propertyPath: m_Name
       value: Sand (13)
@@ -110883,6 +111007,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 408588143}
     m_Modifications:
+    - target: {fileID: 819926372695272455, guid: 31f3e42583073364f8d0587b527f9e9c, type: 3}
+      propertyPath: m_IsTrigger
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 6258435374373364480, guid: 31f3e42583073364f8d0587b527f9e9c, type: 3}
       propertyPath: m_Name
       value: Sand (21)
@@ -116297,6 +116425,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 534995658}
     m_Modifications:
+    - target: {fileID: 819926372695272455, guid: 31f3e42583073364f8d0587b527f9e9c, type: 3}
+      propertyPath: m_IsTrigger
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 6258435374373364480, guid: 31f3e42583073364f8d0587b527f9e9c, type: 3}
       propertyPath: m_Name
       value: Sand (4)
@@ -116607,6 +116739,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 408588143}
     m_Modifications:
+    - target: {fileID: 819926372695272455, guid: 31f3e42583073364f8d0587b527f9e9c, type: 3}
+      propertyPath: m_IsTrigger
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 6258435374373364480, guid: 31f3e42583073364f8d0587b527f9e9c, type: 3}
       propertyPath: m_Name
       value: Sand (3)
@@ -121342,6 +121478,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 472597383}
     m_Modifications:
+    - target: {fileID: 819926372695272455, guid: 31f3e42583073364f8d0587b527f9e9c, type: 3}
+      propertyPath: m_IsTrigger
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 6258435374373364480, guid: 31f3e42583073364f8d0587b527f9e9c, type: 3}
       propertyPath: m_Name
       value: Sand (20)
@@ -126019,6 +126159,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 277454606}
     m_Modifications:
+    - target: {fileID: 819926372695272455, guid: 31f3e42583073364f8d0587b527f9e9c, type: 3}
+      propertyPath: m_IsTrigger
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 6258435374373364480, guid: 31f3e42583073364f8d0587b527f9e9c, type: 3}
       propertyPath: m_Name
       value: Sand (18)
@@ -132583,6 +132727,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1976169180}
     m_Modifications:
+    - target: {fileID: 819926372695272455, guid: 31f3e42583073364f8d0587b527f9e9c, type: 3}
+      propertyPath: m_IsTrigger
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 6258435374373364480, guid: 31f3e42583073364f8d0587b527f9e9c, type: 3}
       propertyPath: m_Name
       value: Sand (12)
@@ -133699,6 +133847,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1976169180}
     m_Modifications:
+    - target: {fileID: 819926372695272455, guid: 31f3e42583073364f8d0587b527f9e9c, type: 3}
+      propertyPath: m_IsTrigger
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 6258435374373364480, guid: 31f3e42583073364f8d0587b527f9e9c, type: 3}
       propertyPath: m_Name
       value: Sand (6)
@@ -140422,6 +140574,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1976169180}
     m_Modifications:
+    - target: {fileID: 819926372695272455, guid: 31f3e42583073364f8d0587b527f9e9c, type: 3}
+      propertyPath: m_IsTrigger
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 6258435374373364480, guid: 31f3e42583073364f8d0587b527f9e9c, type: 3}
       propertyPath: m_Name
       value: Sand (3)
@@ -143074,6 +143230,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1976169180}
     m_Modifications:
+    - target: {fileID: 819926372695272455, guid: 31f3e42583073364f8d0587b527f9e9c, type: 3}
+      propertyPath: m_IsTrigger
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 6258435374373364480, guid: 31f3e42583073364f8d0587b527f9e9c, type: 3}
       propertyPath: m_Name
       value: Sand (14)
@@ -144555,6 +144715,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 534995658}
     m_Modifications:
+    - target: {fileID: 819926372695272455, guid: 31f3e42583073364f8d0587b527f9e9c, type: 3}
+      propertyPath: m_IsTrigger
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 6258435374373364480, guid: 31f3e42583073364f8d0587b527f9e9c, type: 3}
       propertyPath: m_Name
       value: Sand (2)
@@ -146725,6 +146889,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 408588143}
     m_Modifications:
+    - target: {fileID: 819926372695272455, guid: 31f3e42583073364f8d0587b527f9e9c, type: 3}
+      propertyPath: m_IsTrigger
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 6258435374373364480, guid: 31f3e42583073364f8d0587b527f9e9c, type: 3}
       propertyPath: m_Name
       value: Sand (20)
@@ -157415,6 +157583,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 408588143}
     m_Modifications:
+    - target: {fileID: 819926372695272455, guid: 31f3e42583073364f8d0587b527f9e9c, type: 3}
+      propertyPath: m_IsTrigger
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 6258435374373364480, guid: 31f3e42583073364f8d0587b527f9e9c, type: 3}
       propertyPath: m_Name
       value: Sand (15)
@@ -162306,6 +162478,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 472597383}
     m_Modifications:
+    - target: {fileID: 819926372695272455, guid: 31f3e42583073364f8d0587b527f9e9c, type: 3}
+      propertyPath: m_IsTrigger
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 6258435374373364480, guid: 31f3e42583073364f8d0587b527f9e9c, type: 3}
       propertyPath: m_Name
       value: Sand (15)
@@ -165323,6 +165499,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 472597383}
     m_Modifications:
+    - target: {fileID: 819926372695272455, guid: 31f3e42583073364f8d0587b527f9e9c, type: 3}
+      propertyPath: m_IsTrigger
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 6258435374373364480, guid: 31f3e42583073364f8d0587b527f9e9c, type: 3}
       propertyPath: m_Name
       value: Sand (4)
@@ -169601,6 +169781,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1976169180}
     m_Modifications:
+    - target: {fileID: 819926372695272455, guid: 31f3e42583073364f8d0587b527f9e9c, type: 3}
+      propertyPath: m_IsTrigger
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 6258435374373364480, guid: 31f3e42583073364f8d0587b527f9e9c, type: 3}
       propertyPath: m_Name
       value: Sand (22)
@@ -173879,6 +174063,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 472597383}
     m_Modifications:
+    - target: {fileID: 819926372695272455, guid: 31f3e42583073364f8d0587b527f9e9c, type: 3}
+      propertyPath: m_IsTrigger
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 6258435374373364480, guid: 31f3e42583073364f8d0587b527f9e9c, type: 3}
       propertyPath: m_Name
       value: Sand (7)
@@ -175546,6 +175734,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 408588143}
     m_Modifications:
+    - target: {fileID: 819926372695272455, guid: 31f3e42583073364f8d0587b527f9e9c, type: 3}
+      propertyPath: m_IsTrigger
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 6258435374373364480, guid: 31f3e42583073364f8d0587b527f9e9c, type: 3}
       propertyPath: m_Name
       value: Sand (11)
@@ -181284,6 +181476,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1976169180}
     m_Modifications:
+    - target: {fileID: 819926372695272455, guid: 31f3e42583073364f8d0587b527f9e9c, type: 3}
+      propertyPath: m_IsTrigger
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 6258435374373364480, guid: 31f3e42583073364f8d0587b527f9e9c, type: 3}
       propertyPath: m_Name
       value: Sand (21)
@@ -190900,6 +191096,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1112442858}
     m_Modifications:
+    - target: {fileID: 819926372695272455, guid: 31f3e42583073364f8d0587b527f9e9c, type: 3}
+      propertyPath: m_IsTrigger
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 6258435374373364480, guid: 31f3e42583073364f8d0587b527f9e9c, type: 3}
       propertyPath: m_Name
       value: Sand (2)
@@ -192319,6 +192519,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1976169180}
     m_Modifications:
+    - target: {fileID: 819926372695272455, guid: 31f3e42583073364f8d0587b527f9e9c, type: 3}
+      propertyPath: m_IsTrigger
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 6258435374373364480, guid: 31f3e42583073364f8d0587b527f9e9c, type: 3}
       propertyPath: m_Name
       value: Sand (16)
@@ -194461,6 +194665,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1112442858}
     m_Modifications:
+    - target: {fileID: 819926372695272455, guid: 31f3e42583073364f8d0587b527f9e9c, type: 3}
+      propertyPath: m_IsTrigger
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 6258435374373364480, guid: 31f3e42583073364f8d0587b527f9e9c, type: 3}
       propertyPath: m_Name
       value: Sand
@@ -195322,6 +195530,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 472597383}
     m_Modifications:
+    - target: {fileID: 819926372695272455, guid: 31f3e42583073364f8d0587b527f9e9c, type: 3}
+      propertyPath: m_IsTrigger
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 6258435374373364480, guid: 31f3e42583073364f8d0587b527f9e9c, type: 3}
       propertyPath: m_Name
       value: Sand (12)
@@ -201783,6 +201995,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 277454606}
     m_Modifications:
+    - target: {fileID: 819926372695272455, guid: 31f3e42583073364f8d0587b527f9e9c, type: 3}
+      propertyPath: m_IsTrigger
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 6258435374373364480, guid: 31f3e42583073364f8d0587b527f9e9c, type: 3}
       propertyPath: m_Name
       value: Sand (14)
@@ -203023,6 +203239,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1112442858}
     m_Modifications:
+    - target: {fileID: 819926372695272455, guid: 31f3e42583073364f8d0587b527f9e9c, type: 3}
+      propertyPath: m_IsTrigger
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 6258435374373364480, guid: 31f3e42583073364f8d0587b527f9e9c, type: 3}
       propertyPath: m_Name
       value: Sand (19)
@@ -203636,6 +203856,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1976169180}
     m_Modifications:
+    - target: {fileID: 819926372695272455, guid: 31f3e42583073364f8d0587b527f9e9c, type: 3}
+      propertyPath: m_IsTrigger
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 6258435374373364480, guid: 31f3e42583073364f8d0587b527f9e9c, type: 3}
       propertyPath: m_Name
       value: Sand (20)
@@ -213886,6 +214110,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 534995658}
     m_Modifications:
+    - target: {fileID: 819926372695272455, guid: 31f3e42583073364f8d0587b527f9e9c, type: 3}
+      propertyPath: m_IsTrigger
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 6258435374373364480, guid: 31f3e42583073364f8d0587b527f9e9c, type: 3}
       propertyPath: m_Name
       value: Sand (21)
@@ -215973,6 +216201,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 534995658}
     m_Modifications:
+    - target: {fileID: 819926372695272455, guid: 31f3e42583073364f8d0587b527f9e9c, type: 3}
+      propertyPath: m_IsTrigger
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 6258435374373364480, guid: 31f3e42583073364f8d0587b527f9e9c, type: 3}
       propertyPath: m_Name
       value: Sand (9)
@@ -225431,6 +225663,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1976169180}
     m_Modifications:
+    - target: {fileID: 819926372695272455, guid: 31f3e42583073364f8d0587b527f9e9c, type: 3}
+      propertyPath: m_IsTrigger
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 6258435374373364480, guid: 31f3e42583073364f8d0587b527f9e9c, type: 3}
       propertyPath: m_Name
       value: Sand
@@ -227215,6 +227451,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 534995658}
     m_Modifications:
+    - target: {fileID: 819926372695272455, guid: 31f3e42583073364f8d0587b527f9e9c, type: 3}
+      propertyPath: m_IsTrigger
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 6258435374373364480, guid: 31f3e42583073364f8d0587b527f9e9c, type: 3}
       propertyPath: m_Name
       value: Sand (19)
@@ -227587,6 +227827,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 472597383}
     m_Modifications:
+    - target: {fileID: 819926372695272455, guid: 31f3e42583073364f8d0587b527f9e9c, type: 3}
+      propertyPath: m_IsTrigger
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 6258435374373364480, guid: 31f3e42583073364f8d0587b527f9e9c, type: 3}
       propertyPath: m_Name
       value: Sand (10)
@@ -229867,6 +230111,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1112442858}
     m_Modifications:
+    - target: {fileID: 819926372695272455, guid: 31f3e42583073364f8d0587b527f9e9c, type: 3}
+      propertyPath: m_IsTrigger
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 6258435374373364480, guid: 31f3e42583073364f8d0587b527f9e9c, type: 3}
       propertyPath: m_Name
       value: Sand (17)
@@ -234124,6 +234372,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 277454606}
     m_Modifications:
+    - target: {fileID: 819926372695272455, guid: 31f3e42583073364f8d0587b527f9e9c, type: 3}
+      propertyPath: m_IsTrigger
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 6258435374373364480, guid: 31f3e42583073364f8d0587b527f9e9c, type: 3}
       propertyPath: m_Name
       value: Sand (23)
@@ -236204,6 +236456,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 534995658}
     m_Modifications:
+    - target: {fileID: 819926372695272455, guid: 31f3e42583073364f8d0587b527f9e9c, type: 3}
+      propertyPath: m_IsTrigger
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 6258435374373364480, guid: 31f3e42583073364f8d0587b527f9e9c, type: 3}
       propertyPath: m_Name
       value: Sand
@@ -237430,6 +237686,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1112442858}
     m_Modifications:
+    - target: {fileID: 819926372695272455, guid: 31f3e42583073364f8d0587b527f9e9c, type: 3}
+      propertyPath: m_IsTrigger
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 6258435374373364480, guid: 31f3e42583073364f8d0587b527f9e9c, type: 3}
       propertyPath: m_Name
       value: Sand (15)
@@ -241474,6 +241734,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 472597383}
     m_Modifications:
+    - target: {fileID: 819926372695272455, guid: 31f3e42583073364f8d0587b527f9e9c, type: 3}
+      propertyPath: m_IsTrigger
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 6258435374373364480, guid: 31f3e42583073364f8d0587b527f9e9c, type: 3}
       propertyPath: m_Name
       value: Sand (16)
@@ -254131,6 +254395,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 408588143}
     m_Modifications:
+    - target: {fileID: 819926372695272455, guid: 31f3e42583073364f8d0587b527f9e9c, type: 3}
+      propertyPath: m_IsTrigger
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 6258435374373364480, guid: 31f3e42583073364f8d0587b527f9e9c, type: 3}
       propertyPath: m_Name
       value: Sand (22)
@@ -259738,6 +260006,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 534995658}
     m_Modifications:
+    - target: {fileID: 819926372695272455, guid: 31f3e42583073364f8d0587b527f9e9c, type: 3}
+      propertyPath: m_IsTrigger
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 6258435374373364480, guid: 31f3e42583073364f8d0587b527f9e9c, type: 3}
       propertyPath: m_Name
       value: Sand (22)
@@ -266633,6 +266905,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1112442858}
     m_Modifications:
+    - target: {fileID: 819926372695272455, guid: 31f3e42583073364f8d0587b527f9e9c, type: 3}
+      propertyPath: m_IsTrigger
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 6258435374373364480, guid: 31f3e42583073364f8d0587b527f9e9c, type: 3}
       propertyPath: m_Name
       value: Sand (14)
@@ -268307,6 +268583,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 277454606}
     m_Modifications:
+    - target: {fileID: 819926372695272455, guid: 31f3e42583073364f8d0587b527f9e9c, type: 3}
+      propertyPath: m_IsTrigger
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 6258435374373364480, guid: 31f3e42583073364f8d0587b527f9e9c, type: 3}
       propertyPath: m_Name
       value: Sand (9)
@@ -275250,6 +275530,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 277454606}
     m_Modifications:
+    - target: {fileID: 819926372695272455, guid: 31f3e42583073364f8d0587b527f9e9c, type: 3}
+      propertyPath: m_IsTrigger
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 6258435374373364480, guid: 31f3e42583073364f8d0587b527f9e9c, type: 3}
       propertyPath: m_Name
       value: Sand (6)
@@ -275870,6 +276154,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 534995658}
     m_Modifications:
+    - target: {fileID: 819926372695272455, guid: 31f3e42583073364f8d0587b527f9e9c, type: 3}
+      propertyPath: m_IsTrigger
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 6258435374373364480, guid: 31f3e42583073364f8d0587b527f9e9c, type: 3}
       propertyPath: m_Name
       value: Sand (16)
@@ -276118,6 +276406,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 534995658}
     m_Modifications:
+    - target: {fileID: 819926372695272455, guid: 31f3e42583073364f8d0587b527f9e9c, type: 3}
+      propertyPath: m_IsTrigger
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 6258435374373364480, guid: 31f3e42583073364f8d0587b527f9e9c, type: 3}
       propertyPath: m_Name
       value: Sand (7)
@@ -277778,6 +278070,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 408588143}
     m_Modifications:
+    - target: {fileID: 819926372695272455, guid: 31f3e42583073364f8d0587b527f9e9c, type: 3}
+      propertyPath: m_IsTrigger
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 6258435374373364480, guid: 31f3e42583073364f8d0587b527f9e9c, type: 3}
       propertyPath: m_Name
       value: Sand (13)
@@ -293407,6 +293703,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 534995658}
     m_Modifications:
+    - target: {fileID: 819926372695272455, guid: 31f3e42583073364f8d0587b527f9e9c, type: 3}
+      propertyPath: m_IsTrigger
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 6258435374373364480, guid: 31f3e42583073364f8d0587b527f9e9c, type: 3}
       propertyPath: m_Name
       value: Sand (14)
@@ -301687,6 +301987,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1976169180}
     m_Modifications:
+    - target: {fileID: 819926372695272455, guid: 31f3e42583073364f8d0587b527f9e9c, type: 3}
+      propertyPath: m_IsTrigger
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 6258435374373364480, guid: 31f3e42583073364f8d0587b527f9e9c, type: 3}
       propertyPath: m_Name
       value: Sand (9)
@@ -309250,6 +309554,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1112442858}
     m_Modifications:
+    - target: {fileID: 819926372695272455, guid: 31f3e42583073364f8d0587b527f9e9c, type: 3}
+      propertyPath: m_IsTrigger
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 6258435374373364480, guid: 31f3e42583073364f8d0587b527f9e9c, type: 3}
       propertyPath: m_Name
       value: Sand (12)
@@ -313521,6 +313829,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 408588143}
     m_Modifications:
+    - target: {fileID: 819926372695272455, guid: 31f3e42583073364f8d0587b527f9e9c, type: 3}
+      propertyPath: m_IsTrigger
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 6258435374373364480, guid: 31f3e42583073364f8d0587b527f9e9c, type: 3}
       propertyPath: m_Name
       value: Sand
@@ -323826,6 +324138,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 408588143}
     m_Modifications:
+    - target: {fileID: 819926372695272455, guid: 31f3e42583073364f8d0587b527f9e9c, type: 3}
+      propertyPath: m_IsTrigger
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 6258435374373364480, guid: 31f3e42583073364f8d0587b527f9e9c, type: 3}
       propertyPath: m_Name
       value: Sand (12)
@@ -324694,6 +325010,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 472597383}
     m_Modifications:
+    - target: {fileID: 819926372695272455, guid: 31f3e42583073364f8d0587b527f9e9c, type: 3}
+      propertyPath: m_IsTrigger
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 6258435374373364480, guid: 31f3e42583073364f8d0587b527f9e9c, type: 3}
       propertyPath: m_Name
       value: Sand (11)
@@ -327298,6 +327618,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1976169180}
     m_Modifications:
+    - target: {fileID: 819926372695272455, guid: 31f3e42583073364f8d0587b527f9e9c, type: 3}
+      propertyPath: m_IsTrigger
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 6258435374373364480, guid: 31f3e42583073364f8d0587b527f9e9c, type: 3}
       propertyPath: m_Name
       value: Sand (1)
@@ -328903,6 +329227,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1976169180}
     m_Modifications:
+    - target: {fileID: 819926372695272455, guid: 31f3e42583073364f8d0587b527f9e9c, type: 3}
+      propertyPath: m_IsTrigger
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 6258435374373364480, guid: 31f3e42583073364f8d0587b527f9e9c, type: 3}
       propertyPath: m_Name
       value: Sand (4)
@@ -342328,6 +342656,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 534995658}
     m_Modifications:
+    - target: {fileID: 819926372695272455, guid: 31f3e42583073364f8d0587b527f9e9c, type: 3}
+      propertyPath: m_IsTrigger
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 6258435374373364480, guid: 31f3e42583073364f8d0587b527f9e9c, type: 3}
       propertyPath: m_Name
       value: Sand (6)
@@ -342576,6 +342908,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 408588143}
     m_Modifications:
+    - target: {fileID: 819926372695272455, guid: 31f3e42583073364f8d0587b527f9e9c, type: 3}
+      propertyPath: m_IsTrigger
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 6258435374373364480, guid: 31f3e42583073364f8d0587b527f9e9c, type: 3}
       propertyPath: m_Name
       value: Sand (7)
@@ -354458,6 +354794,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1112442858}
     m_Modifications:
+    - target: {fileID: 819926372695272455, guid: 31f3e42583073364f8d0587b527f9e9c, type: 3}
+      propertyPath: m_IsTrigger
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 6258435374373364480, guid: 31f3e42583073364f8d0587b527f9e9c, type: 3}
       propertyPath: m_Name
       value: Sand (3)
@@ -357438,6 +357778,7 @@ GameObject:
   - component: {fileID: 1245570530}
   - component: {fileID: 1245570529}
   - component: {fileID: 1245570528}
+  - component: {fileID: 1245570532}
   m_Layer: 0
   m_Name: Player
   m_TagString: Untagged
@@ -357529,6 +357870,33 @@ Transform:
   - {fileID: 1804926181}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!54 &1245570532
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1245570527}
+  serializedVersion: 5
+  m_Mass: 1
+  m_LinearDamping: 0
+  m_AngularDamping: 0.05
+  m_CenterOfMass: {x: 0, y: 0, z: 0}
+  m_InertiaTensor: {x: 1, y: 1, z: 1}
+  m_InertiaRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ImplicitCom: 1
+  m_ImplicitTensor: 1
+  m_UseGravity: 1
+  m_IsKinematic: 0
+  m_Interpolate: 0
+  m_Constraints: 0
+  m_CollisionDetection: 0
 --- !u!1001 &1245723829
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -361759,6 +362127,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 277454606}
     m_Modifications:
+    - target: {fileID: 819926372695272455, guid: 31f3e42583073364f8d0587b527f9e9c, type: 3}
+      propertyPath: m_IsTrigger
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 6258435374373364480, guid: 31f3e42583073364f8d0587b527f9e9c, type: 3}
       propertyPath: m_Name
       value: Sand (7)
@@ -369006,6 +369378,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1112442858}
     m_Modifications:
+    - target: {fileID: 819926372695272455, guid: 31f3e42583073364f8d0587b527f9e9c, type: 3}
+      propertyPath: m_IsTrigger
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 6258435374373364480, guid: 31f3e42583073364f8d0587b527f9e9c, type: 3}
       propertyPath: m_Name
       value: Sand (6)
@@ -374262,6 +374638,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 408588143}
     m_Modifications:
+    - target: {fileID: 819926372695272455, guid: 31f3e42583073364f8d0587b527f9e9c, type: 3}
+      propertyPath: m_IsTrigger
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 6258435374373364480, guid: 31f3e42583073364f8d0587b527f9e9c, type: 3}
       propertyPath: m_Name
       value: Sand (6)
@@ -386572,6 +386952,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 277454606}
     m_Modifications:
+    - target: {fileID: 819926372695272455, guid: 31f3e42583073364f8d0587b527f9e9c, type: 3}
+      propertyPath: m_IsTrigger
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 6258435374373364480, guid: 31f3e42583073364f8d0587b527f9e9c, type: 3}
       propertyPath: m_Name
       value: Sand (21)
@@ -388866,6 +389250,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 472597383}
     m_Modifications:
+    - target: {fileID: 819926372695272455, guid: 31f3e42583073364f8d0587b527f9e9c, type: 3}
+      propertyPath: m_IsTrigger
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 6258435374373364480, guid: 31f3e42583073364f8d0587b527f9e9c, type: 3}
       propertyPath: m_Name
       value: Sand (23)
@@ -389548,6 +389936,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1976169180}
     m_Modifications:
+    - target: {fileID: 819926372695272455, guid: 31f3e42583073364f8d0587b527f9e9c, type: 3}
+      propertyPath: m_IsTrigger
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 6258435374373364480, guid: 31f3e42583073364f8d0587b527f9e9c, type: 3}
       propertyPath: m_Name
       value: Sand (7)
@@ -390602,6 +390994,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1976169180}
     m_Modifications:
+    - target: {fileID: 819926372695272455, guid: 31f3e42583073364f8d0587b527f9e9c, type: 3}
+      propertyPath: m_IsTrigger
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 6258435374373364480, guid: 31f3e42583073364f8d0587b527f9e9c, type: 3}
       propertyPath: m_Name
       value: Sand (19)
@@ -393013,6 +393409,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 277454606}
     m_Modifications:
+    - target: {fileID: 819926372695272455, guid: 31f3e42583073364f8d0587b527f9e9c, type: 3}
+      propertyPath: m_IsTrigger
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 6258435374373364480, guid: 31f3e42583073364f8d0587b527f9e9c, type: 3}
       propertyPath: m_Name
       value: Sand (16)
@@ -396512,6 +396912,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 534995658}
     m_Modifications:
+    - target: {fileID: 819926372695272455, guid: 31f3e42583073364f8d0587b527f9e9c, type: 3}
+      propertyPath: m_IsTrigger
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 6258435374373364480, guid: 31f3e42583073364f8d0587b527f9e9c, type: 3}
       propertyPath: m_Name
       value: Sand (5)
@@ -400714,6 +401118,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 534995658}
     m_Modifications:
+    - target: {fileID: 819926372695272455, guid: 31f3e42583073364f8d0587b527f9e9c, type: 3}
+      propertyPath: m_IsTrigger
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 6258435374373364480, guid: 31f3e42583073364f8d0587b527f9e9c, type: 3}
       propertyPath: m_Name
       value: Sand (12)
@@ -413974,6 +414382,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 472597383}
     m_Modifications:
+    - target: {fileID: 819926372695272455, guid: 31f3e42583073364f8d0587b527f9e9c, type: 3}
+      propertyPath: m_IsTrigger
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 6258435374373364480, guid: 31f3e42583073364f8d0587b527f9e9c, type: 3}
       propertyPath: m_Name
       value: Sand (8)
@@ -414263,6 +414675,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 277454606}
     m_Modifications:
+    - target: {fileID: 819926372695272455, guid: 31f3e42583073364f8d0587b527f9e9c, type: 3}
+      propertyPath: m_IsTrigger
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 6258435374373364480, guid: 31f3e42583073364f8d0587b527f9e9c, type: 3}
       propertyPath: m_Name
       value: Sand (17)
@@ -415069,6 +415485,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 408588143}
     m_Modifications:
+    - target: {fileID: 819926372695272455, guid: 31f3e42583073364f8d0587b527f9e9c, type: 3}
+      propertyPath: m_IsTrigger
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 6258435374373364480, guid: 31f3e42583073364f8d0587b527f9e9c, type: 3}
       propertyPath: m_Name
       value: Sand (8)
@@ -420669,6 +421089,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 534995658}
     m_Modifications:
+    - target: {fileID: 819926372695272455, guid: 31f3e42583073364f8d0587b527f9e9c, type: 3}
+      propertyPath: m_IsTrigger
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 6258435374373364480, guid: 31f3e42583073364f8d0587b527f9e9c, type: 3}
       propertyPath: m_Name
       value: Sand (1)
@@ -430030,6 +430454,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 408588143}
     m_Modifications:
+    - target: {fileID: 819926372695272455, guid: 31f3e42583073364f8d0587b527f9e9c, type: 3}
+      propertyPath: m_IsTrigger
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 6258435374373364480, guid: 31f3e42583073364f8d0587b527f9e9c, type: 3}
       propertyPath: m_Name
       value: Sand (18)
@@ -430588,6 +431016,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 534995658}
     m_Modifications:
+    - target: {fileID: 819926372695272455, guid: 31f3e42583073364f8d0587b527f9e9c, type: 3}
+      propertyPath: m_IsTrigger
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 6258435374373364480, guid: 31f3e42583073364f8d0587b527f9e9c, type: 3}
       propertyPath: m_Name
       value: Sand (3)
@@ -434053,6 +434485,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1976169180}
     m_Modifications:
+    - target: {fileID: 819926372695272455, guid: 31f3e42583073364f8d0587b527f9e9c, type: 3}
+      propertyPath: m_IsTrigger
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 6258435374373364480, guid: 31f3e42583073364f8d0587b527f9e9c, type: 3}
       propertyPath: m_Name
       value: Sand (13)
@@ -444027,6 +444463,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 408588143}
     m_Modifications:
+    - target: {fileID: 819926372695272455, guid: 31f3e42583073364f8d0587b527f9e9c, type: 3}
+      propertyPath: m_IsTrigger
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 6258435374373364480, guid: 31f3e42583073364f8d0587b527f9e9c, type: 3}
       propertyPath: m_Name
       value: Sand (17)
@@ -453029,6 +453469,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 408588143}
     m_Modifications:
+    - target: {fileID: 819926372695272455, guid: 31f3e42583073364f8d0587b527f9e9c, type: 3}
+      propertyPath: m_IsTrigger
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 6258435374373364480, guid: 31f3e42583073364f8d0587b527f9e9c, type: 3}
       propertyPath: m_Name
       value: Sand (14)
@@ -458746,6 +459190,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 472597383}
     m_Modifications:
+    - target: {fileID: 819926372695272455, guid: 31f3e42583073364f8d0587b527f9e9c, type: 3}
+      propertyPath: m_IsTrigger
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 6258435374373364480, guid: 31f3e42583073364f8d0587b527f9e9c, type: 3}
       propertyPath: m_Name
       value: Sand (6)
@@ -459917,6 +460365,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 277454606}
     m_Modifications:
+    - target: {fileID: 819926372695272455, guid: 31f3e42583073364f8d0587b527f9e9c, type: 3}
+      propertyPath: m_IsTrigger
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 6258435374373364480, guid: 31f3e42583073364f8d0587b527f9e9c, type: 3}
       propertyPath: m_Name
       value: Sand (15)
@@ -460289,6 +460741,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 277454606}
     m_Modifications:
+    - target: {fileID: 819926372695272455, guid: 31f3e42583073364f8d0587b527f9e9c, type: 3}
+      propertyPath: m_IsTrigger
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 6258435374373364480, guid: 31f3e42583073364f8d0587b527f9e9c, type: 3}
       propertyPath: m_Name
       value: Sand (8)
@@ -471345,6 +471801,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1976169180}
     m_Modifications:
+    - target: {fileID: 819926372695272455, guid: 31f3e42583073364f8d0587b527f9e9c, type: 3}
+      propertyPath: m_IsTrigger
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 6258435374373364480, guid: 31f3e42583073364f8d0587b527f9e9c, type: 3}
       propertyPath: m_Name
       value: Sand (23)
@@ -477124,6 +477584,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1112442858}
     m_Modifications:
+    - target: {fileID: 819926372695272455, guid: 31f3e42583073364f8d0587b527f9e9c, type: 3}
+      propertyPath: m_IsTrigger
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 6258435374373364480, guid: 31f3e42583073364f8d0587b527f9e9c, type: 3}
       propertyPath: m_Name
       value: Sand (4)
@@ -477737,6 +478201,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1112442858}
     m_Modifications:
+    - target: {fileID: 819926372695272455, guid: 31f3e42583073364f8d0587b527f9e9c, type: 3}
+      propertyPath: m_IsTrigger
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 6258435374373364480, guid: 31f3e42583073364f8d0587b527f9e9c, type: 3}
       propertyPath: m_Name
       value: Sand (7)
@@ -478171,6 +478639,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1976169180}
     m_Modifications:
+    - target: {fileID: 819926372695272455, guid: 31f3e42583073364f8d0587b527f9e9c, type: 3}
+      propertyPath: m_IsTrigger
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 6258435374373364480, guid: 31f3e42583073364f8d0587b527f9e9c, type: 3}
       propertyPath: m_Name
       value: Sand (15)
@@ -485796,6 +486268,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1112442858}
     m_Modifications:
+    - target: {fileID: 819926372695272455, guid: 31f3e42583073364f8d0587b527f9e9c, type: 3}
+      propertyPath: m_IsTrigger
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 6258435374373364480, guid: 31f3e42583073364f8d0587b527f9e9c, type: 3}
       propertyPath: m_Name
       value: Sand (21)
@@ -487897,6 +488373,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 472597383}
     m_Modifications:
+    - target: {fileID: 819926372695272455, guid: 31f3e42583073364f8d0587b527f9e9c, type: 3}
+      propertyPath: m_IsTrigger
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 6258435374373364480, guid: 31f3e42583073364f8d0587b527f9e9c, type: 3}
       propertyPath: m_Name
       value: Sand (13)
@@ -498388,6 +498868,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 472597383}
     m_Modifications:
+    - target: {fileID: 819926372695272455, guid: 31f3e42583073364f8d0587b527f9e9c, type: 3}
+      propertyPath: m_IsTrigger
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 6258435374373364480, guid: 31f3e42583073364f8d0587b527f9e9c, type: 3}
       propertyPath: m_Name
       value: Sand (14)
@@ -501598,6 +502082,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 277454606}
     m_Modifications:
+    - target: {fileID: 819926372695272455, guid: 31f3e42583073364f8d0587b527f9e9c, type: 3}
+      propertyPath: m_IsTrigger
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 6258435374373364480, guid: 31f3e42583073364f8d0587b527f9e9c, type: 3}
       propertyPath: m_Name
       value: Sand (5)
@@ -506144,6 +506632,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1976169180}
     m_Modifications:
+    - target: {fileID: 819926372695272455, guid: 31f3e42583073364f8d0587b527f9e9c, type: 3}
+      propertyPath: m_IsTrigger
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 6258435374373364480, guid: 31f3e42583073364f8d0587b527f9e9c, type: 3}
       propertyPath: m_Name
       value: Sand (17)
@@ -507745,6 +508237,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 408588143}
     m_Modifications:
+    - target: {fileID: 819926372695272455, guid: 31f3e42583073364f8d0587b527f9e9c, type: 3}
+      propertyPath: m_IsTrigger
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 6258435374373364480, guid: 31f3e42583073364f8d0587b527f9e9c, type: 3}
       propertyPath: m_Name
       value: Sand (10)
@@ -510576,6 +511072,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 472597383}
     m_Modifications:
+    - target: {fileID: 819926372695272455, guid: 31f3e42583073364f8d0587b527f9e9c, type: 3}
+      propertyPath: m_IsTrigger
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 6258435374373364480, guid: 31f3e42583073364f8d0587b527f9e9c, type: 3}
       propertyPath: m_Name
       value: Sand (3)
@@ -511382,6 +511882,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 277454606}
     m_Modifications:
+    - target: {fileID: 819926372695272455, guid: 31f3e42583073364f8d0587b527f9e9c, type: 3}
+      propertyPath: m_IsTrigger
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 6258435374373364480, guid: 31f3e42583073364f8d0587b527f9e9c, type: 3}
       propertyPath: m_Name
       value: Sand (2)
@@ -512532,6 +513036,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 472597383}
     m_Modifications:
+    - target: {fileID: 819926372695272455, guid: 31f3e42583073364f8d0587b527f9e9c, type: 3}
+      propertyPath: m_IsTrigger
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 6258435374373364480, guid: 31f3e42583073364f8d0587b527f9e9c, type: 3}
       propertyPath: m_Name
       value: Sand (18)
@@ -517044,6 +517552,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1976169180}
     m_Modifications:
+    - target: {fileID: 819926372695272455, guid: 31f3e42583073364f8d0587b527f9e9c, type: 3}
+      propertyPath: m_IsTrigger
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 6258435374373364480, guid: 31f3e42583073364f8d0587b527f9e9c, type: 3}
       propertyPath: m_Name
       value: Sand (2)
@@ -524559,6 +525071,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 408588143}
     m_Modifications:
+    - target: {fileID: 819926372695272455, guid: 31f3e42583073364f8d0587b527f9e9c, type: 3}
+      propertyPath: m_IsTrigger
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 6258435374373364480, guid: 31f3e42583073364f8d0587b527f9e9c, type: 3}
       propertyPath: m_Name
       value: Sand (4)
@@ -524807,6 +525323,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 408588143}
     m_Modifications:
+    - target: {fileID: 819926372695272455, guid: 31f3e42583073364f8d0587b527f9e9c, type: 3}
+      propertyPath: m_IsTrigger
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 6258435374373364480, guid: 31f3e42583073364f8d0587b527f9e9c, type: 3}
       propertyPath: m_Name
       value: Sand (23)
@@ -530069,6 +530589,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1112442858}
     m_Modifications:
+    - target: {fileID: 819926372695272455, guid: 31f3e42583073364f8d0587b527f9e9c, type: 3}
+      propertyPath: m_IsTrigger
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 6258435374373364480, guid: 31f3e42583073364f8d0587b527f9e9c, type: 3}
       propertyPath: m_Name
       value: Sand (5)
@@ -539044,6 +539568,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1112442858}
     m_Modifications:
+    - target: {fileID: 819926372695272455, guid: 31f3e42583073364f8d0587b527f9e9c, type: 3}
+      propertyPath: m_IsTrigger
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 6258435374373364480, guid: 31f3e42583073364f8d0587b527f9e9c, type: 3}
       propertyPath: m_Name
       value: Sand (22)
@@ -539664,6 +540192,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 408588143}
     m_Modifications:
+    - target: {fileID: 819926372695272455, guid: 31f3e42583073364f8d0587b527f9e9c, type: 3}
+      propertyPath: m_IsTrigger
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 6258435374373364480, guid: 31f3e42583073364f8d0587b527f9e9c, type: 3}
       propertyPath: m_Name
       value: Sand (16)
@@ -546373,6 +546905,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1976169180}
     m_Modifications:
+    - target: {fileID: 819926372695272455, guid: 31f3e42583073364f8d0587b527f9e9c, type: 3}
+      propertyPath: m_IsTrigger
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 6258435374373364480, guid: 31f3e42583073364f8d0587b527f9e9c, type: 3}
       propertyPath: m_Name
       value: Sand (11)
@@ -547303,6 +547839,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 277454606}
     m_Modifications:
+    - target: {fileID: 819926372695272455, guid: 31f3e42583073364f8d0587b527f9e9c, type: 3}
+      propertyPath: m_IsTrigger
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 6258435374373364480, guid: 31f3e42583073364f8d0587b527f9e9c, type: 3}
       propertyPath: m_Name
       value: Sand (12)
@@ -551319,6 +551859,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 472597383}
     m_Modifications:
+    - target: {fileID: 819926372695272455, guid: 31f3e42583073364f8d0587b527f9e9c, type: 3}
+      propertyPath: m_IsTrigger
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 6258435374373364480, guid: 31f3e42583073364f8d0587b527f9e9c, type: 3}
       propertyPath: m_Name
       value: Sand (5)
@@ -552242,6 +552786,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 277454606}
     m_Modifications:
+    - target: {fileID: 819926372695272455, guid: 31f3e42583073364f8d0587b527f9e9c, type: 3}
+      propertyPath: m_IsTrigger
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 6258435374373364480, guid: 31f3e42583073364f8d0587b527f9e9c, type: 3}
       propertyPath: m_Name
       value: Sand (1)
@@ -560522,6 +561070,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 408588143}
     m_Modifications:
+    - target: {fileID: 819926372695272455, guid: 31f3e42583073364f8d0587b527f9e9c, type: 3}
+      propertyPath: m_IsTrigger
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 6258435374373364480, guid: 31f3e42583073364f8d0587b527f9e9c, type: 3}
       propertyPath: m_Name
       value: Sand (2)
@@ -560708,6 +561260,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1112442858}
     m_Modifications:
+    - target: {fileID: 819926372695272455, guid: 31f3e42583073364f8d0587b527f9e9c, type: 3}
+      propertyPath: m_IsTrigger
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 6258435374373364480, guid: 31f3e42583073364f8d0587b527f9e9c, type: 3}
       propertyPath: m_Name
       value: Sand (10)
@@ -562678,6 +563234,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 472597383}
     m_Modifications:
+    - target: {fileID: 819926372695272455, guid: 31f3e42583073364f8d0587b527f9e9c, type: 3}
+      propertyPath: m_IsTrigger
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 6258435374373364480, guid: 31f3e42583073364f8d0587b527f9e9c, type: 3}
       propertyPath: m_Name
       value: Sand (21)
@@ -562864,6 +563424,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1112442858}
     m_Modifications:
+    - target: {fileID: 819926372695272455, guid: 31f3e42583073364f8d0587b527f9e9c, type: 3}
+      propertyPath: m_IsTrigger
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 6258435374373364480, guid: 31f3e42583073364f8d0587b527f9e9c, type: 3}
       propertyPath: m_Name
       value: Sand (20)
@@ -563360,6 +563924,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 534995658}
     m_Modifications:
+    - target: {fileID: 819926372695272455, guid: 31f3e42583073364f8d0587b527f9e9c, type: 3}
+      propertyPath: m_IsTrigger
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 6258435374373364480, guid: 31f3e42583073364f8d0587b527f9e9c, type: 3}
       propertyPath: m_Name
       value: Sand (15)
@@ -566786,6 +567354,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 534995658}
     m_Modifications:
+    - target: {fileID: 819926372695272455, guid: 31f3e42583073364f8d0587b527f9e9c, type: 3}
+      propertyPath: m_IsTrigger
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 6258435374373364480, guid: 31f3e42583073364f8d0587b527f9e9c, type: 3}
       propertyPath: m_Name
       value: Sand (23)
@@ -566972,6 +567544,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 534995658}
     m_Modifications:
+    - target: {fileID: 819926372695272455, guid: 31f3e42583073364f8d0587b527f9e9c, type: 3}
+      propertyPath: m_IsTrigger
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 6258435374373364480, guid: 31f3e42583073364f8d0587b527f9e9c, type: 3}
       propertyPath: m_Name
       value: Sand (11)
@@ -575410,6 +575986,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 534995658}
     m_Modifications:
+    - target: {fileID: 819926372695272455, guid: 31f3e42583073364f8d0587b527f9e9c, type: 3}
+      propertyPath: m_IsTrigger
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 6258435374373364480, guid: 31f3e42583073364f8d0587b527f9e9c, type: 3}
       propertyPath: m_Name
       value: Sand (20)
@@ -578248,6 +578828,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 277454606}
     m_Modifications:
+    - target: {fileID: 819926372695272455, guid: 31f3e42583073364f8d0587b527f9e9c, type: 3}
+      propertyPath: m_IsTrigger
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 6258435374373364480, guid: 31f3e42583073364f8d0587b527f9e9c, type: 3}
       propertyPath: m_Name
       value: Sand (13)
@@ -591432,6 +592016,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 277454606}
     m_Modifications:
+    - target: {fileID: 819926372695272455, guid: 31f3e42583073364f8d0587b527f9e9c, type: 3}
+      propertyPath: m_IsTrigger
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 6258435374373364480, guid: 31f3e42583073364f8d0587b527f9e9c, type: 3}
       propertyPath: m_Name
       value: Sand (3)
@@ -593402,6 +593990,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 472597383}
     m_Modifications:
+    - target: {fileID: 819926372695272455, guid: 31f3e42583073364f8d0587b527f9e9c, type: 3}
+      propertyPath: m_IsTrigger
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 6258435374373364480, guid: 31f3e42583073364f8d0587b527f9e9c, type: 3}
       propertyPath: m_Name
       value: Sand (19)
@@ -612972,6 +613564,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 534995658}
     m_Modifications:
+    - target: {fileID: 819926372695272455, guid: 31f3e42583073364f8d0587b527f9e9c, type: 3}
+      propertyPath: m_IsTrigger
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 6258435374373364480, guid: 31f3e42583073364f8d0587b527f9e9c, type: 3}
       propertyPath: m_Name
       value: Sand (10)
@@ -613399,6 +613995,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 408588143}
     m_Modifications:
+    - target: {fileID: 819926372695272455, guid: 31f3e42583073364f8d0587b527f9e9c, type: 3}
+      propertyPath: m_IsTrigger
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 6258435374373364480, guid: 31f3e42583073364f8d0587b527f9e9c, type: 3}
       propertyPath: m_Name
       value: Sand (9)
@@ -619516,6 +620116,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 277454606}
     m_Modifications:
+    - target: {fileID: 819926372695272455, guid: 31f3e42583073364f8d0587b527f9e9c, type: 3}
+      propertyPath: m_IsTrigger
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 6258435374373364480, guid: 31f3e42583073364f8d0587b527f9e9c, type: 3}
       propertyPath: m_Name
       value: Sand
