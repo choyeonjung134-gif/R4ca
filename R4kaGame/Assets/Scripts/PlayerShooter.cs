@@ -1,8 +1,11 @@
 using UnityEngine;
 using UnityEngine.InputSystem;
 
+
+
 public class PlayerShooter : MonoBehaviour
 {
+    public Camera playerCamera;
     public GameObject bulletPrefab;
     public Transform firePoint;
     public float bulletSpeed = 20f;
@@ -16,9 +19,12 @@ public class PlayerShooter : MonoBehaviour
         if (Time.time < lastFireTime + fireCooldown) return;
         lastFireTime = Time.time;
 
-        GameObject bullet = Instantiate(bulletPrefab,
-            firePoint.position, firePoint.rotation);
+        GameObject bullet = Instantiate(bulletPrefab, firePoint.position, firePoint.rotation);
+        Destroy(bullet, 3f);
+
+        Vector3 shootDirection = playerCamera.transform.forward;
+
         Rigidbody rb = bullet.GetComponent<Rigidbody>();
-        rb.linearVelocity = firePoint.forward * bulletSpeed;
+        rb.linearVelocity = shootDirection * bulletSpeed;
     }
 }
