@@ -1,22 +1,23 @@
+
 using UnityEngine;
 using UnityEngine.InputSystem;
 using System.Collections;
-
-
 
 public class PlayerShooter : MonoBehaviour
 {
     public Camera playerCamera;
     public GameObject bulletPrefab;
     public Transform firePoint;
+
     public float bulletSpeed = 20f;
-    public float fireCooldown = 0.2f;   // 연속 클릭 간격
+    public float fireCooldown = 0.2f;
 
+    private float normalFireCooldown = 0.2f;
+    private float appleFireCooldown = 0.08f;
+    private float currentFireCooldown = 0.2f;
 
-    private float normalFireCoolDown = 0.2f;
-    private float appleFireCoolDown = 0.01f;
-    private float fireCoolDown = 0.2f;
     private Coroutine appleBoostCoroutine;
+    private float lastFireTime = -999f;
 
     public void ActivateAppleBoost()
     {
@@ -30,30 +31,54 @@ public class PlayerShooter : MonoBehaviour
 
     private IEnumerator AppleBoostRoutine()
     {
-        fireCoolDown = appleFireCoolDown;
+        currentFireCooldown = appleFireCooldown;
 
         yield return new WaitForSeconds(10f);
 
-        fireCoolDown = normalFireCoolDown;
-       
+        currentFireCooldown = normalFireCooldown;
+        appleBoostCoroutine = null;
     }
 
-
-    float lastFireTime = -999f;
-
-    public void OnAttack(InputValue value)
+    private void Update()
     {
-        if (Time.timeScale == 0f) return;   // 게임 오버면 무시
-        if (Time.time < lastFireTime + fireCooldown) return;
+        if (Time.timeScale == 0f)
+            return;
+
+        // 마우스 왼쪽 버튼을 누르고 있을 때만 발사
+        if (Mouse.current == null ||
+            !Mouse.current.leftButton.isPressed)
+            return;
+
+        if (Time.time < lastFireTime + currentFireCooldown)
+            return;
+
+        Shoot();
+    }
+
+    private void Shoot()
+    {
+        if (playerCamera == null ||
+            bulletPrefab == null ||
+            firePoint == null)
+            return;
+
         lastFireTime = Time.time;
 
-        GameObject bullet = Instantiate(bulletPrefab, firePoint.position, firePoint.rotation);
+        GameObject bullet = Instantiate(
+            bulletPrefab,
+            firePoint.position,
+            firePoint.rotation
+        );
 
-        Destroy(bullet, 3f); //3초 지나면 사라지기
+        Destroy(bullet, 3f);
 
         Vector3 shootDirection = playerCamera.transform.forward;
 
         Rigidbody rb = bullet.GetComponent<Rigidbody>();
-        rb.linearVelocity = shootDirection * bulletSpeed;
+
+        if (rb != null)
+        {
+            rb.linearVelocity = shootDirection * bulletSpeed;
+        }
     }
 }
