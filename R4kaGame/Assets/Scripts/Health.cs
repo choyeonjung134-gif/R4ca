@@ -5,7 +5,7 @@ public class Health : MonoBehaviour
 {
     public int maxHp = 3;
     public int currentHp;
-    public Slider hpSlider;      // ÇÃ·¹ÀÌ¾î¸¸ ¿¬°á
+    public Slider hpSlider;      // ï¿½Ã·ï¿½ï¿½Ì¾î¸¸ ï¿½ï¿½ï¿½ï¿½
 
     void Start()
     {
@@ -15,7 +15,7 @@ public class Health : MonoBehaviour
 
     public void TakeDamage(int damage)
     {
-        if (currentHp <= 0) return;   // ÀÌ¹Ì Á×¾úÀ¸¸é ¹«½Ã
+        if (currentHp <= 0) return;   // ï¿½Ì¹ï¿½ ï¿½×¾ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½
 
         currentHp -= damage;
         Debug.Log(name + " HP: " + currentHp);
@@ -23,6 +23,26 @@ public class Health : MonoBehaviour
 
         if (currentHp <= 0) Die();
     }
+
+    // ã…¡ã…¡ ì˜¤ì•„ì‹œìŠ¤ íšŒë³µ ê¸°ëŠ¥ ì¶”ê°€
+
+    public void Heal(int amount)
+    {
+        if (currentHp <= 0) return;
+
+        currentHp += amount;
+
+        if (currentHp > maxHp)
+        {
+            currentHp = maxHp;
+        }
+
+        Debug.Log(name + " HP íšŒë³µ: " + currentHp);
+        UpdateBar();
+    }
+
+    // ã…¡ã…¡
+
     void UpdateBar()
     {
         if (hpSlider != null)
@@ -33,8 +53,8 @@ public class Health : MonoBehaviour
     {
         if (CompareTag("Player"))
         {
-            Debug.Log("°ÔÀÓ ¿À¹ö");
-            Time.timeScale = 0f;      // °ÔÀÓ Á¤Áö
+            Debug.Log("ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½");
+            Time.timeScale = 0f;      // ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½
         }
         else
         {
