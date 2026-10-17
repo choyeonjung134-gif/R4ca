@@ -74,11 +74,14 @@ public class PlayerShooter : MonoBehaviour
 
         Vector3 shootDirection = playerCamera.transform.forward;
 
+
         Rigidbody rb = bullet.GetComponent<Rigidbody>();
 
         if (rb != null)
         {
+            rb.collisionDetectionMode = CollisionDetectionMode.ContinuousDynamic;
             rb.linearVelocity = shootDirection * bulletSpeed;
         }
+
     }
 }

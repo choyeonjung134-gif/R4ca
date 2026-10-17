@@ -1003672,6 +1003672,12 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 593dc8831ef3b7c45844f4c22e6d18ae, type: 3}
       insertIndex: -1
       addedObject: {fileID: 944837934}
+    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 593dc8831ef3b7c45844f4c22e6d18ae, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 944837935}
+    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 593dc8831ef3b7c45844f4c22e6d18ae, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 944837936}
   m_SourcePrefab: {fileID: 100100000, guid: 593dc8831ef3b7c45844f4c22e6d18ae, type: 3}
 --- !u!4 &944837933 stripped
 Transform:
@@ -1003694,6 +1003700,42 @@ MonoBehaviour:
   moveSpeed: 3
   stopDistance: 2
   tiltAngle: 25
+--- !u!114 &944837935
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 751934425}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9e684b29e05a5334cb69dfc5652ee8bc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::CrowHealth
+  maxHits: 3
+--- !u!136 &944837936
+CapsuleCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 751934425}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Radius: 2.087715
+  m_Height: 5.7521324
+  m_Direction: 1
+  m_Center: {x: 0.6632734, y: 4.9766684, z: 0.25084418}
 --- !u!1001 &944843156
 PrefabInstance:
   m_ObjectHideFlags: 0
