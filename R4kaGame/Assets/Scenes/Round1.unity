@@ -1005082,6 +1005082,11 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 6742378461214751162, guid: 31f3e42583073364f8d0587b527f9e9c, type: 3}
   m_PrefabInstance: {fileID: 946275373}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &946342257 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: dd186177eb398b340b1d2bdb89fff8bc, type: 3}
+  m_PrefabInstance: {fileID: 1830819266}
+  m_PrefabAsset: {fileID: 0}
 --- !u!4 &946487507 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 6742378461214751162, guid: 31f3e42583073364f8d0587b527f9e9c, type: 3}
@@ -1962575,13 +1962580,29 @@ PrefabInstance:
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: dd186177eb398b340b1d2bdb89fff8bc, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1830819268}
   m_SourcePrefab: {fileID: 100100000, guid: dd186177eb398b340b1d2bdb89fff8bc, type: 3}
 --- !u!4 &1830819267 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: dd186177eb398b340b1d2bdb89fff8bc, type: 3}
   m_PrefabInstance: {fileID: 1830819266}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &1830819268
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 946342257}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 67e5d48e277e88d419ef80a97270af19, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::OasisHeal
+  healAmount: 1
 --- !u!1001 &1830898278
 PrefabInstance:
   m_ObjectHideFlags: 0
