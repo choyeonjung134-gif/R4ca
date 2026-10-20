@@ -1003733,6 +1003733,7 @@ MonoBehaviour:
   moveSpeed: 3
   stopDistance: 2
   tiltAngle: 25
+  attackInterval: 1
 --- !u!114 &944837935
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1158362,6 +1158363,11 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 6742378461214751162, guid: 31f3e42583073364f8d0587b527f9e9c, type: 3}
   m_PrefabInstance: {fileID: 1087470332}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &1087482507 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: 48fdcb8c9d759e9479839bd035955da3, type: 3}
+  m_PrefabInstance: {fileID: 1987073152}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &1087529957
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1172551,6 +1172557,7 @@ MonoBehaviour:
   moveSpeed: 3
   stopDistance: 2
   tiltAngle: 25
+  attackInterval: 1
 --- !u!1001 &1102072958
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -2129921,13 +2129928,52 @@ PrefabInstance:
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 48fdcb8c9d759e9479839bd035955da3, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1987073155}
+    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 48fdcb8c9d759e9479839bd035955da3, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1987073154}
   m_SourcePrefab: {fileID: 100100000, guid: 48fdcb8c9d759e9479839bd035955da3, type: 3}
 --- !u!4 &1987073153 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: 48fdcb8c9d759e9479839bd035955da3, type: 3}
   m_PrefabInstance: {fileID: 1987073152}
   m_PrefabAsset: {fileID: 0}
+--- !u!65 &1987073154
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1087482507}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 1
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 1, y: 1, z: 1}
+  m_Center: {x: 0, y: 0, z: 0}
+--- !u!114 &1987073155
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1087482507}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4e56444bb9ff2d84c8ca1019e68d2a49, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::StrawberryPickup
 --- !u!1001 &1987280543
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -2165214,6 +2165260,7 @@ MonoBehaviour:
   moveSpeed: 3
   stopDistance: 2
   tiltAngle: 25
+  attackInterval: 1
 --- !u!4 &2021162294 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 6742378461214751162, guid: 31f3e42583073364f8d0587b527f9e9c, type: 3}
