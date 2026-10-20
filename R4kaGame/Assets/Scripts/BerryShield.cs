@@ -11,7 +11,6 @@ public class BerryShield : MonoBehaviour
 
     private int remainingHits;
     private bool isActive = false;
-    private bool hasStrawberry = false;
     private Coroutine shieldCoroutine;
 
     void Start()
@@ -22,29 +21,22 @@ public class BerryShield : MonoBehaviour
 
     void Update()
     {
-        // 딸기를 먹은 뒤에만 2번 키 사용 가능
-        if (hasStrawberry && Input.GetKeyDown(KeyCode.Alpha2))
+        // 2번 키를 누르면 보호막 발동
+        if (Input.GetKeyDown(KeyCode.Alpha2))
         {
-            hasStrawberry = false; // 딸기 1개 사용
             ActivateShield();
         }
-    }
-
-    // 딸기를 먹었을 때 호출
-    public void CollectStrawberry()
-    {
-        hasStrawberry = true;
-        Debug.Log("딸기 획득! 2번 키를 눌러 보호막을 사용하세요.");
     }
 
     public void ActivateShield()
     {
         if (shieldObject == null)
         {
-            Debug.LogWarning("Shield Object에 보호막을 연결해 주세요.");
+            Debug.LogWarning("보호막 오브젝트를 연결해 주세요.");
             return;
         }
 
+        // 이미 활성화된 경우 다시 시작
         if (shieldCoroutine != null)
             StopCoroutine(shieldCoroutine);
 
@@ -52,6 +44,7 @@ public class BerryShield : MonoBehaviour
         isActive = true;
 
         shieldObject.SetActive(true);
+
         shieldCoroutine = StartCoroutine(ShieldTimer());
 
         Debug.Log("딸기 보호막 발동!");
@@ -63,7 +56,7 @@ public class BerryShield : MonoBehaviour
         DeactivateShield();
     }
 
-    // 까마귀 공격 스크립트에서 호출
+    // 공격 스크립트에서 호출할 함수
     public bool TryBlockHit()
     {
         if (!isActive)
@@ -71,7 +64,7 @@ public class BerryShield : MonoBehaviour
 
         remainingHits--;
 
-        Debug.Log("보호막 방어! 남은 방어 횟수: " + remainingHits);
+        Debug.Log("보호막 방어! 남은 횟수: " + remainingHits);
 
         if (remainingHits <= 0)
             DeactivateShield();
@@ -86,11 +79,7 @@ public class BerryShield : MonoBehaviour
         if (shieldObject != null)
             shieldObject.SetActive(false);
 
-        if (shieldCoroutine != null)
-        {
-            StopCoroutine(shieldCoroutine);
-            shieldCoroutine = null;
-        }
+        shieldCoroutine = null;
 
         Debug.Log("보호막 종료");
     }
