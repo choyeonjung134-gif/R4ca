@@ -5,29 +5,22 @@ public class Health : MonoBehaviour
 {
     public int maxHp = 3;
     public int currentHp;
-    public Slider hpSlider;      // �÷��̾ ����
+    public Slider hpSlider;
+    public GameObject gameOverPanel;// �÷��̾ ����
     public static int killCount;    // 모든 Health 가 같이 쓰는 값 
     private void OnTriggerEnter(Collider other)
     {
-        Debug.Log("무언가와 충돌함: " + other.name);
-
         if (other.CompareTag("Player"))
         {
-            Debug.Log("플레이어를 발견함!");
-
             Health playerHealth = other.GetComponent<Health>();
 
             if (playerHealth != null)
             {
-                Debug.Log("피해 적용!");
                 playerHealth.TakeDamage(1);
-            }
-            else
-            {
-                Debug.Log("Health 스크립트를 찾을 수 없음!");
             }
         }
     }
+
     void Start()
     {
         currentHp = maxHp;
@@ -36,7 +29,7 @@ public class Health : MonoBehaviour
 
     public void TakeDamage(int damage)
     {
-        if (currentHp <= 0) return;   
+        if (currentHp <= 0) return;
 
         currentHp -= damage;
         Debug.Log(name + " HP: " + currentHp);
@@ -78,12 +71,18 @@ public class Health : MonoBehaviour
         if (CompareTag("Player"))
         {
             Debug.Log("플레이어 사망");
-            Time.timeScale = 0f;      // 게임 일시정지
-        }
-        else
-        {
-            killCount++;
-            Destroy(gameObject);
+
+            if (gameOverPanel != null)
+            {
+                gameOverPanel.SetActive(true);
+            }
+
+            // 마우스 커서를 보이게 하고 잠금 해제
+            Cursor.visible = true;
+            Cursor.lockState = CursorLockMode.None;
+
+            // 게임 일시정지
+            Time.timeScale = 0f;
         }
     }
 }
