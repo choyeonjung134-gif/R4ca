@@ -19,14 +19,11 @@ public class PlayerShooter : MonoBehaviour
     private Coroutine appleBoostCoroutine;
     private float lastFireTime = -999f;
 
+    private bool hasApple = false;
+
     public void ActivateAppleBoost()
     {
-        if (appleBoostCoroutine != null)
-        {
-            StopCoroutine(appleBoostCoroutine);
-        }
-
-        appleBoostCoroutine = StartCoroutine(AppleBoostRoutine());
+        hasApple = true;
     }
 
     private IEnumerator AppleBoostRoutine()
@@ -39,12 +36,23 @@ public class PlayerShooter : MonoBehaviour
         appleBoostCoroutine = null;
     }
 
+
+
     private void Update()
     {
         if (Time.timeScale == 0f)
             return;
 
-        // 마우스 왼쪽 버튼을 누르고 있을 때만 발사
+        // 사과를 먹은 뒤 숫자 1을 누르면 능력 발동
+        if (hasApple &&
+            Keyboard.current != null &&
+            Keyboard.current.digit1Key.wasPressedThisFrame)
+        {
+            hasApple = false;
+            StartCoroutine(AppleBoostRoutine());
+        }
+
+        // 마우스 왼쪽 버튼을 누르고 있을 때 발사
         if (Mouse.current == null ||
             !Mouse.current.leftButton.isPressed)
             return;
@@ -54,6 +62,8 @@ public class PlayerShooter : MonoBehaviour
 
         Shoot();
     }
+
+
 
     private void Shoot()
     {

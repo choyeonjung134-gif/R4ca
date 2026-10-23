@@ -4,7 +4,7 @@ using UnityEngine;
 public class SnakeFollow : MonoBehaviour
 {
     public Transform player;
-    public float moveSpeed = 2f;
+    public float moveSpeed = 5f;
     public float stopDistance = 2f;
 
     void Update()

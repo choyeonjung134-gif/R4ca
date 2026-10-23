@@ -18,6 +18,7 @@ public class SnakeHealth : MonoBehaviour
 
         if (currentHits >= maxHits)
         {
+            Health.killCount++;
             Destroy(gameObject);
         }
     }

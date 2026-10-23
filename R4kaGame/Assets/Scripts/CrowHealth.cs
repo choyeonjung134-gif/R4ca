@@ -7,6 +7,7 @@ public class CrowHealth : MonoBehaviour
 
     private int currentHits = 0;
 
+
     public void TakeHit()
     {
         if (currentHits >= maxHits)
@@ -14,11 +15,14 @@ public class CrowHealth : MonoBehaviour
 
         currentHits++;
 
-        Debug.Log("까마귀가 침에 맞음: " + currentHits + " / " + maxHits);
+        Debug.Log("까마귀가 침에 맞음: " +
+                  currentHits + " / " + maxHits);
 
         if (currentHits >= maxHits)
         {
+            Health.killCount++;
             Destroy(gameObject);
         }
     }
 }
+

@@ -6,6 +6,7 @@ public class Health : MonoBehaviour
     public int maxHp = 3;
     public int currentHp;
     public Slider hpSlider;      // �÷��̾ ����
+    public static int killCount;    // 모든 Health 가 같이 쓰는 값 
 
     void Start()
     {
@@ -15,7 +16,7 @@ public class Health : MonoBehaviour
 
     public void TakeDamage(int damage)
     {
-        if (currentHp <= 0) return;   // �̹� �׾����� ����
+        if (currentHp <= 0) return;   
 
         currentHp -= damage;
         Debug.Log(name + " HP: " + currentHp);
@@ -53,11 +54,12 @@ public class Health : MonoBehaviour
     {
         if (CompareTag("Player"))
         {
-            Debug.Log("���� ����");
-            Time.timeScale = 0f;      // ���� ����
+            Debug.Log("플레이어 사망");
+            Time.timeScale = 0f;      // 게임 일시정지
         }
         else
         {
+            killCount++;
             Destroy(gameObject);
         }
     }

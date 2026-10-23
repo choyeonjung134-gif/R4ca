@@ -5,13 +5,24 @@ public class BulletDestroy : MonoBehaviour
 {
     private void OnCollisionEnter(Collision collision)
     {
-        // 까마귀에 맞으면 피격 처리
-        CrowHealth crowHealth =
+        // 뱀을 맞혔는지 확인
+        SnakeHealth snake =
+            collision.gameObject.GetComponentInParent<SnakeHealth>();
+
+        if (snake != null)
+        {
+            snake.TakeHit();
+            Destroy(gameObject);
+            return;
+        }
+
+        // 까마귀를 맞혔는지 확인
+        CrowHealth crow =
             collision.gameObject.GetComponentInParent<CrowHealth>();
 
-        if (crowHealth != null)
+        if (crow != null)
         {
-            crowHealth.TakeHit();
+            crow.TakeHit();
             Destroy(gameObject);
             return;
         }
