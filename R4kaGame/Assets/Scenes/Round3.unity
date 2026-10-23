@@ -680470,7 +680470,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 44243132b3835c546905d59c29be1f9f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::SnakeFollow
-  player: {fileID: 0}
+  player: {fileID: 1493084237}
   moveSpeed: 2
   stopDistance: 2
 --- !u!1001 &553297274
@@ -1730365,7 +1730365,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a6704be88dc0e85499a6fe2a394aca5c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::CrowFollow
-  player: {fileID: 0}
+  player: {fileID: 1493084237}
   moveSpeed: 5
   stopDistance: 2
   tiltAngle: 25
@@ -1809539,7 +1809539,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 44243132b3835c546905d59c29be1f9f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::SnakeFollow
-  player: {fileID: 0}
+  player: {fileID: 1493084237}
   moveSpeed: 2
   stopDistance: 2
 --- !u!1001 &1478539237
@@ -1848111,7 +1848111,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a6704be88dc0e85499a6fe2a394aca5c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::CrowFollow
-  player: {fileID: 0}
+  player: {fileID: 1493084237}
   moveSpeed: 5
   stopDistance: 2
   tiltAngle: 25
@@ -2094058,7 +2094058,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a6704be88dc0e85499a6fe2a394aca5c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::CrowFollow
-  player: {fileID: 0}
+  player: {fileID: 1493084237}
   moveSpeed: 5
   stopDistance: 2
   tiltAngle: 25
@@ -2531071,7 +2531071,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 44243132b3835c546905d59c29be1f9f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::SnakeFollow
-  player: {fileID: 0}
+  player: {fileID: 1493084237}
   moveSpeed: 2
   stopDistance: 2
 --- !u!1001 &2068805121
