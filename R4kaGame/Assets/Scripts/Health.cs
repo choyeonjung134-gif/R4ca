@@ -7,7 +7,27 @@ public class Health : MonoBehaviour
     public int currentHp;
     public Slider hpSlider;      // �÷��̾ ����
     public static int killCount;    // 모든 Health 가 같이 쓰는 값 
+    private void OnTriggerEnter(Collider other)
+    {
+        Debug.Log("무언가와 충돌함: " + other.name);
 
+        if (other.CompareTag("Player"))
+        {
+            Debug.Log("플레이어를 발견함!");
+
+            Health playerHealth = other.GetComponent<Health>();
+
+            if (playerHealth != null)
+            {
+                Debug.Log("피해 적용!");
+                playerHealth.TakeDamage(1);
+            }
+            else
+            {
+                Debug.Log("Health 스크립트를 찾을 수 없음!");
+            }
+        }
+    }
     void Start()
     {
         currentHp = maxHp;
@@ -47,7 +67,10 @@ public class Health : MonoBehaviour
     void UpdateBar()
     {
         if (hpSlider != null)
-            hpSlider.value = (float)currentHp / maxHp;
+        {
+            hpSlider.maxValue = maxHp;
+            hpSlider.value = currentHp;
+        }
     }
 
     void Die()
