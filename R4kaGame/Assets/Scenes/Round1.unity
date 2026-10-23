@@ -823479,6 +823479,52 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 6742378461214751162, guid: 31f3e42583073364f8d0587b527f9e9c, type: 3}
   m_PrefabInstance: {fileID: 777211254}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &777305755
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 777305757}
+  - component: {fileID: 777305756}
+  m_Layer: 0
+  m_Name: EscapeManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &777305756
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 777305755}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1e94aa7dd8b9aaa49ab11ea2530ccd10, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::TitleMenu
+  gameSceneName: Round1
+  titleSceneName: Title
+--- !u!4 &777305757
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 777305755}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 81.71607, y: 0, z: -40.88308}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &777309083
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -2302893,3 +2302939,4 @@ SceneRoots:
   - {fileID: 1099624880}
   - {fileID: 210865956}
   - {fileID: 1937363552}
+  - {fileID: 777305757}
