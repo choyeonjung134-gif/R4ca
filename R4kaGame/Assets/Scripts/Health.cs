@@ -74,15 +74,23 @@ public class Health : MonoBehaviour
 
             if (gameOverPanel != null)
             {
+                Debug.Log("패널 활성화 시도: " + gameOverPanel.name);
                 gameOverPanel.SetActive(true);
             }
+            else
+            {
+                Debug.LogError("Game Over Panel이 연결되지 않았습니다!");
+            }
 
-            // 마우스 커서를 보이게 하고 잠금 해제
             Cursor.visible = true;
             Cursor.lockState = CursorLockMode.None;
 
-            // 게임 일시정지
             Time.timeScale = 0f;
+        }
+        else
+        {
+            killCount++;
+            Destroy(gameObject);
         }
     }
 }
