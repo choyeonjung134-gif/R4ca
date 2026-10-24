@@ -58,20 +58,11 @@ public class CrowFollow : MonoBehaviour
 
         transform.position +=
             direction * moveSpeed * Time.deltaTime;
-
-        // 알파카를 바라보기
         Quaternion lookRotation = Quaternion.LookRotation(direction);
+        Quaternion tiltRotation = Quaternion.Euler(tiltAngle, 0f, 0f);
 
-        // 앞으로 숙이는 자세
-        Quaternion tiltRotation =
-    Quaternion.Euler(tiltAngle, 0f, 0f);
+        transform.rotation = lookRotation * tiltRotation; ;
 
-        Quaternion modelCorrection =
-            Quaternion.Euler(0f, 180f, 0f);
 
-        transform.rotation =
-            lookRotation * modelCorrection * tiltRotation;
-
-       
     }
 }
