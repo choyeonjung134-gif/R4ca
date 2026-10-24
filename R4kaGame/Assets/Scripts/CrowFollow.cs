@@ -1,68 +1,46 @@
-
 using UnityEngine;
 
 public class CrowFollow : MonoBehaviour
 {
     public Transform player;
-    public float moveSpeed = 5f;
+    public float moveSpeed = 3f;
     public float stopDistance = 2f;
     public float tiltAngle = 25f;
 
-    // 딸기 스크립트 능력
+    [Tooltip("모델이 뒤를 보고 있으면 180")]
+    public float modelYawOffset = 180f;
 
-    public float attackInterval = 1f;
-
-    private float nextAttackTime = 0f;
-    private BerryShield playerShield;
-
-    //딸기 스크립트 능력
+    public float rotateSpeed = 10f;
 
     void Update()
     {
-        if (player == null)
-            return;
-        // 딸기 스크립트 능력
-        if (playerShield == null)
-            playerShield = player.GetComponent<BerryShield>();
-        // 딸기 스크립트 능력
+        if (player == null) return;
 
-        // 알파카의 높이까지 포함한 방향
         Vector3 direction = player.position - transform.position;
         float distance = direction.magnitude;
 
-        if (distance <= stopDistance)
-        {
-            if (Time.time >= nextAttackTime)
-            {
-                nextAttackTime = Time.time + attackInterval;
+        RotateTowards(direction);
 
-                if (playerShield != null)
-                {
-                    bool blocked = playerShield.TryBlockHit();
+        if (distance <= stopDistance) return;
 
-                    if (blocked)
-                        Debug.Log("까마귀 공격을 보호막이 막았습니다!");
-                    else
-                        Debug.Log("까마귀가 공격했습니다!");
-                }
-            }
+        transform.position += direction.normalized * moveSpeed * Time.deltaTime;
+    }
 
-            return;
-        }
+    void RotateTowards(Vector3 direction)
+    {
+        Vector3 flatDir = new Vector3(direction.x, 0f, direction.z);
+        if (flatDir.sqrMagnitude < 0.0001f) return;
 
-        if (distance < 0.001f)
-            return;
-
-        // 알파카를 향해 위아래로도 이동
-        direction.Normalize();
-
-        transform.position +=
-            direction * moveSpeed * Time.deltaTime;
-        Quaternion lookRotation = Quaternion.LookRotation(direction);
+        Quaternion lookRotation = Quaternion.LookRotation(flatDir.normalized);
         Quaternion tiltRotation = Quaternion.Euler(tiltAngle, 0f, 0f);
+        Quaternion modelFix = Quaternion.Euler(0f, modelYawOffset, 0f);
 
-        transform.rotation = lookRotation * tiltRotation; ;
+        Quaternion targetRotation = lookRotation * tiltRotation * modelFix;
 
-
+        transform.rotation = Quaternion.Slerp(
+            transform.rotation,
+            targetRotation,
+            rotateSpeed * Time.deltaTime
+        );
     }
 }
