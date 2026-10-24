@@ -32,7 +32,6 @@ public class GameManager : MonoBehaviour
     {
         SceneManager.LoadScene(titleSceneName);
         Time.timeScale = 1f;
-        UnityEngine.SceneManagement.SceneManager.LoadScene("Title");
     }
 }
 
