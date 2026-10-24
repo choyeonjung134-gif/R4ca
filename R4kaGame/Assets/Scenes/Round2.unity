@@ -837142,7 +837142,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::EnemyChaser
   moveSpeed: 2
   detectRange: 15
-  attackRange: 1.5
+  attackRange: 8
   damage: 1
   attackCooldown: 1
 --- !u!65 &783268964
@@ -837164,8 +837164,8 @@ BoxCollider:
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
-  m_Size: {x: 7.4423842, y: 1.7284154, z: 15.301567}
-  m_Center: {x: 0.7509901, y: -0.46201605, z: -1.755436}
+  m_Size: {x: 7.4423842, y: 1.7284154, z: 13.670371}
+  m_Center: {x: 0.7509899, y: -0.46201605, z: -0.93983746}
 --- !u!114 &783268965
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1258643,7 +1258643,7 @@ MonoBehaviour:
   maxHp: 3
   currentHp: 0
   hpSlider: {fileID: 2050125686}
-  gameOverPanel: {fileID: 1807626769}
+  gameOverPanel: {fileID: 1424095956}
 --- !u!114 &1180675452
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1258765,7 +1258765,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1d24a99211083c04e9da0380f48f563b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::GameManager
-  gameOverPanel: {fileID: 1807626769}
+  gameOverPanel: {fileID: 1424095956}
   titleSceneName: Title
 --- !u!1001 &1180857149
 PrefabInstance:
@@ -1273958,7 +1273958,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::EnemyChaser
   moveSpeed: 2
   detectRange: 15
-  attackRange: 1.5
+  attackRange: 8
   damage: 1
   attackCooldown: 1
 --- !u!65 &1196354347
@@ -1273980,8 +1273980,8 @@ BoxCollider:
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
-  m_Size: {x: 7.4423842, y: 1.7284154, z: 15.301567}
-  m_Center: {x: 0.7509901, y: -0.46201605, z: -1.755436}
+  m_Size: {x: 7.4423842, y: 1.7284154, z: 13.661576}
+  m_Center: {x: 0.75099, y: -0.46201605, z: -0.9354398}
 --- !u!114 &1196354348
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1518615,9 +1518615,9 @@ RectTransform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
-  - {fileID: 1491664142}
   - {fileID: 1514767790}
   - {fileID: 1938809166}
+  - {fileID: 1491664142}
   m_Father: {fileID: 1205144877}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
@@ -1593201,7 +1593201,7 @@ RectTransform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1491664141}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
@@ -1617368,7 +1617368,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 0}
+      - m_Target: {fileID: 1807626772}
         m_TargetAssemblyTypeName: GameManager, Assembly-CSharp
         m_MethodName: Retry
         m_Mode: 1
@@ -2074314,7 +2074314,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 0}
+      - m_Target: {fileID: 1807626772}
         m_TargetAssemblyTypeName: GameManager, Assembly-CSharp
         m_MethodName: GoTitle
         m_Mode: 1
@@ -2208514,8 +2208514,8 @@ BoxCollider:
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
-  m_Size: {x: 7.4423842, y: 1.7284154, z: 15.301567}
-  m_Center: {x: 0.7509901, y: -0.46201605, z: -1.755436}
+  m_Size: {x: 7.4423842, y: 1.7284154, z: 13.839828}
+  m_Center: {x: 0.7509899, y: -0.46201605, z: -1.0245659}
 --- !u!114 &2068719501
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2208530,7 +2208530,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::EnemyChaser
   moveSpeed: 2
   detectRange: 15
-  attackRange: 1.5
+  attackRange: 8
   damage: 1
   attackCooldown: 1
 --- !u!1001 &2068783613

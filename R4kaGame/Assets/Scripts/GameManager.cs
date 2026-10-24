@@ -22,12 +22,17 @@ public class GameManager : MonoBehaviour
     public void Retry()
     {
         string scene = SceneManager.GetActiveScene().name;
+        Time.timeScale = 1f;
+        Cursor.visible = true;
+        Cursor.lockState = CursorLockMode.None;
         SceneManager.LoadScene(scene);
     }
 
     public void GoTitle()
     {
         SceneManager.LoadScene(titleSceneName);
+        Time.timeScale = 1f;
+        UnityEngine.SceneManagement.SceneManager.LoadScene("Title");
     }
 }
 
