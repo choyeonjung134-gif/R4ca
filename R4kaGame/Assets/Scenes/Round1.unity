@@ -1329373,6 +1329373,7 @@ GameObject:
   - component: {fileID: 1245570533}
   - component: {fileID: 1245570534}
   - component: {fileID: 1245570535}
+  - component: {fileID: 1245570536}
   m_Layer: 0
   m_Name: Player
   m_TagString: Player
@@ -1329520,6 +1329521,31 @@ MonoBehaviour:
   shieldObject: {fileID: 2008227450}
   duration: 10
   maxHits: 3
+--- !u!114 &1245570536
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1245570527}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bd51b976f5e75ef4ab3ee8c435fa12fd, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::AlpacaSpit
+  mouthPoint: {fileID: 386483009}
+  aimCamera: {fileID: 0}
+  aimPoint: {fileID: 386483009}
+  spitPrefab: {fileID: 0}
+  spitColor: {r: 0.37254903, g: 0.80784315, b: 1, a: 1}
+  chargeTime: 2.5
+  startScale: 0.1
+  maxScale: 3
+  launchSpeed: 10
+  cooldown: 1
+  damage: 1
+  aimDistance: 70
+  spitCharges: 0
 --- !u!1001 &1245581406
 PrefabInstance:
   m_ObjectHideFlags: 0
