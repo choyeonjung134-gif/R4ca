@@ -166580,6 +166580,51 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 6742378461214751162, guid: 31f3e42583073364f8d0587b527f9e9c, type: 3}
   m_PrefabInstance: {fileID: 157921518}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &157923847
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 157923848}
+  - component: {fileID: 157923849}
+  m_Layer: 0
+  m_Name: KillCountUi
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &157923848
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 157923847}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -974.0658, y: -538.997, z: -19.43914}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1099624880}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &157923849
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 157923847}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8f9daa34db3f2d046a7a7f68e85dbe05, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::KillCountUI
+  label: {fileID: 361872146}
 --- !u!1001 &157994485
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -215791,7 +215836,6 @@ GameObject:
   - component: {fileID: 204579122}
   - component: {fileID: 204579121}
   - component: {fileID: 204579120}
-  - component: {fileID: 204579123}
   m_Layer: 5
   m_Name: ' GameOverPanel'
   m_TagString: Untagged
@@ -215859,20 +215903,6 @@ RectTransform:
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
---- !u!114 &204579123
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 204579119}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 1d24a99211083c04e9da0380f48f563b, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::GameManager
-  gameOverPanel: {fileID: 0}
-  titleSceneName: Title
 --- !u!1001 &204605326
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -377147,7 +377177,7 @@ GameObject:
   - component: {fileID: 361872147}
   - component: {fileID: 361872146}
   m_Layer: 5
-  m_Name: KillTex
+  m_Name: Kill
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1173212,7 +1173242,6 @@ GameObject:
   - component: {fileID: 1099624879}
   - component: {fileID: 1099624878}
   - component: {fileID: 1099624877}
-  - component: {fileID: 1099624876}
   m_Layer: 5
   m_Name: Canvas
   m_TagString: Untagged
@@ -1173220,19 +1173249,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!114 &1099624876
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1099624875}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 8f9daa34db3f2d046a7a7f68e85dbe05, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::KillCountUI
-  label: {fileID: 361872146}
 --- !u!114 &1099624877
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1173309,6 +1173325,7 @@ RectTransform:
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 361872148}
+  - {fileID: 157923848}
   - {fileID: 1604931056}
   - {fileID: 204579122}
   m_Father: {fileID: 0}
@@ -2309600,9 +2309617,9 @@ SceneRoots:
   - {fileID: 1478011698}
   - {fileID: 674435288}
   - {fileID: 732016236}
-  - {fileID: 1099624880}
   - {fileID: 210865956}
   - {fileID: 1937363552}
   - {fileID: 777305757}
   - {fileID: 2329469043393279973}
+  - {fileID: 1099624880}
   - {fileID: 1446625663}

@@ -307651,7 +307651,7 @@ GameObject:
   - component: {fileID: 294316854}
   - component: {fileID: 294316853}
   m_Layer: 5
-  m_Name: KillTex
+  m_Name: Kil
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -676887,6 +676887,51 @@ BoxCollider:
   serializedVersion: 3
   m_Size: {x: 1, y: 1.038274, z: 1}
   m_Center: {x: 0, y: 0, z: 0}
+--- !u!1 &630062357
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 630062358}
+  - component: {fileID: 630062359}
+  m_Layer: 0
+  m_Name: KillCountUi
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &630062358
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 630062357}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -973.73926, y: -538.66174, z: -19.23265}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1205144877}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &630062359
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 630062357}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8f9daa34db3f2d046a7a7f68e85dbe05, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::KillCountUI
+  label: {fileID: 294316853}
 --- !u!1001 &630071321
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -746793,13 +746838,35 @@ PrefabInstance:
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 8732980b40627a141a95917a5da9d578, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 697259645}
   m_SourcePrefab: {fileID: 100100000, guid: 8732980b40627a141a95917a5da9d578, type: 3}
 --- !u!4 &697259643 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: 8732980b40627a141a95917a5da9d578, type: 3}
   m_PrefabInstance: {fileID: 697259642}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &697259644 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: 8732980b40627a141a95917a5da9d578, type: 3}
+  m_PrefabInstance: {fileID: 697259642}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &697259645
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 697259644}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7eed8d6e9bf9bb14da75c9d89b5e2f84, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::GrapePickup
+  chargeAmount: 1
+  pickupRadius: 1.5
 --- !u!1001 &697299342
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -897914,13 +897981,35 @@ PrefabInstance:
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 8732980b40627a141a95917a5da9d578, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 838198858}
   m_SourcePrefab: {fileID: 100100000, guid: 8732980b40627a141a95917a5da9d578, type: 3}
 --- !u!4 &838198856 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: 8732980b40627a141a95917a5da9d578, type: 3}
   m_PrefabInstance: {fileID: 838198855}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &838198857 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: 8732980b40627a141a95917a5da9d578, type: 3}
+  m_PrefabInstance: {fileID: 838198855}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &838198858
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 838198857}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7eed8d6e9bf9bb14da75c9d89b5e2f84, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::GrapePickup
+  chargeAmount: 1
+  pickupRadius: 1.5
 --- !u!1001 &838204682
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -938551,13 +938640,35 @@ PrefabInstance:
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 8732980b40627a141a95917a5da9d578, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 875963323}
   m_SourcePrefab: {fileID: 100100000, guid: 8732980b40627a141a95917a5da9d578, type: 3}
 --- !u!4 &875963321 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: 8732980b40627a141a95917a5da9d578, type: 3}
   m_PrefabInstance: {fileID: 875963320}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &875963322 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: 8732980b40627a141a95917a5da9d578, type: 3}
+  m_PrefabInstance: {fileID: 875963320}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &875963323
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 875963322}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7eed8d6e9bf9bb14da75c9d89b5e2f84, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::GrapePickup
+  chargeAmount: 1
+  pickupRadius: 1.5
 --- !u!1001 &875974405
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1260965,6 +1261076,7 @@ GameObject:
   - component: {fileID: 1180675457}
   - component: {fileID: 1180675451}
   - component: {fileID: 1180675450}
+  - component: {fileID: 1180675458}
   m_Layer: 0
   m_Name: Player
   m_TagString: Player
@@ -1260999,7 +1261111,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: fd4aff7f73a07fe4a905fcda1144db8c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Health
-  maxHp: 3
+  maxHp: 10
   currentHp: 0
   hpSlider: {fileID: 2050125686}
   gameOverPanel: {fileID: 1424095956}
@@ -1261126,6 +1261238,31 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::GameManager
   gameOverPanel: {fileID: 1424095956}
   titleSceneName: Title
+--- !u!114 &1180675458
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1180675449}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bd51b976f5e75ef4ab3ee8c435fa12fd, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::AlpacaSpit
+  mouthPoint: {fileID: 954698856}
+  aimCamera: {fileID: 0}
+  aimPoint: {fileID: 954698856}
+  spitPrefab: {fileID: 0}
+  spitColor: {r: 0.7, g: 0.9, b: 1, a: 1}
+  chargeTime: 2.5
+  startScale: 0.1
+  maxScale: 3
+  launchSpeed: 10
+  cooldown: 1
+  damage: 1
+  aimDistance: 70
+  spitCharges: 0
 --- !u!1001 &1180857149
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1285811,7 +1285948,6 @@ GameObject:
   - component: {fileID: 1205144878}
   - component: {fileID: 1205144875}
   - component: {fileID: 1205144874}
-  - component: {fileID: 1205144873}
   m_Layer: 5
   m_Name: 'Canvas '
   m_TagString: Untagged
@@ -1285819,19 +1285955,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!114 &1205144873
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1205144872}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 8f9daa34db3f2d046a7a7f68e85dbe05, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::KillCountUI
-  label: {fileID: 294316853}
 --- !u!114 &1205144874
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1285908,6 +1286031,7 @@ RectTransform:
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 294316855}
+  - {fileID: 630062358}
   - {fileID: 2050125685}
   - {fileID: 1424095957}
   m_Father: {fileID: 0}
@@ -1521065,7 +1521189,6 @@ GameObject:
   - component: {fileID: 1424095957}
   - component: {fileID: 1424095960}
   - component: {fileID: 1424095959}
-  - component: {fileID: 1424095958}
   m_Layer: 5
   m_Name: ' GameOverPanel'
   m_TagString: Untagged
@@ -1521095,20 +1521218,6 @@ RectTransform:
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
---- !u!114 &1424095958
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1424095956}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 1d24a99211083c04e9da0380f48f563b, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::GameManager
-  gameOverPanel: {fileID: 1807626769}
-  titleSceneName: Title
 --- !u!114 &1424095959
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2011301,8 +2011410,30 @@ PrefabInstance:
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 8732980b40627a141a95917a5da9d578, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1875941964}
   m_SourcePrefab: {fileID: 100100000, guid: 8732980b40627a141a95917a5da9d578, type: 3}
+--- !u!1 &1875941963 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: 8732980b40627a141a95917a5da9d578, type: 3}
+  m_PrefabInstance: {fileID: 1875941962}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1875941964
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1875941963}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7eed8d6e9bf9bb14da75c9d89b5e2f84, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::GrapePickup
+  chargeAmount: 1
+  pickupRadius: 1.5
 --- !u!1001 &1875964019
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -2193091,13 +2193222,35 @@ PrefabInstance:
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 8732980b40627a141a95917a5da9d578, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 2049847646}
   m_SourcePrefab: {fileID: 100100000, guid: 8732980b40627a141a95917a5da9d578, type: 3}
 --- !u!4 &2049847644 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: 8732980b40627a141a95917a5da9d578, type: 3}
   m_PrefabInstance: {fileID: 2049847643}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &2049847645 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: 8732980b40627a141a95917a5da9d578, type: 3}
+  m_PrefabInstance: {fileID: 2049847643}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &2049847646
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2049847645}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7eed8d6e9bf9bb14da75c9d89b5e2f84, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::GrapePickup
+  chargeAmount: 1
+  pickupRadius: 1.5
 --- !u!1001 &2049941899
 PrefabInstance:
   m_ObjectHideFlags: 0

@@ -10,7 +10,7 @@ public class GameManager : MonoBehaviour
     void Awake()
     {
         Instance = this;
-        Time.timeScale = 1f;      // ´Ù½Ã ºÒ·¯¿Íµµ ½Ã°£ Á¤»ó
+        Time.timeScale = 1f;      // ï¿½Ù½ï¿½ ï¿½Ò·ï¿½ï¿½Íµï¿½ ï¿½Ã°ï¿½ ï¿½ï¿½ï¿½ï¿½
     }
     public void GameOver()
     {
@@ -21,11 +21,13 @@ public class GameManager : MonoBehaviour
     }
     public void Retry()
     {
-        string scene = SceneManager.GetActiveScene().name;
         Time.timeScale = 1f;
         Cursor.visible = true;
         Cursor.lockState = CursorLockMode.None;
-        SceneManager.LoadScene(scene);
+
+        SceneManager.LoadScene(
+            SceneManager.GetActiveScene().name
+        );
     }
 
     public void GoTitle()
